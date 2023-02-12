@@ -24,7 +24,7 @@ def menu():
     print('q - Quit')
 
 #for 'add cases' option added data entry steps for inserting all data
-def addcases():
+def addCases():
     mycursor = mydb.cursor()
     print("Covid Cases Entry \n")
     countryname=input('Enter Country name:')
